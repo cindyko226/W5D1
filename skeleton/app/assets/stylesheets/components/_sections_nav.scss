@@ -1,0 +1,23 @@
+.sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid grey;
+  position: relative;
+}
+
+
+.section-links {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.section-links a{
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+a:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
